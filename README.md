@@ -29,7 +29,7 @@ In this project you will build such a pipeline.
   * [Visualize the pipeline](#visualize-the-pipeline)
   * [Release the pipeline](#release-the-pipeline)
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
-- [Cleaning up](#cleaning-up)
+- [Submission Details](#submission-details)
 
 ## Preliminary steps
 ### Fork the Starter kit
@@ -563,6 +563,18 @@ This will drop rows in the dataset that are not in the proper geolocation.
 Then commit your change, make a new release (for example ``1.0.1``) and retry (of course you need to use 
 ``-v 1.0.1`` when calling mlflow this time). Now the run should succeed and voit la', 
 you have trained your new model on the new data.
+
+### Submission Details
+
+Github link: https://github.com/feynman0825/nd0821-c2-build-model-workflow-starter/releases
+
+
+
+```{bash}
+mlflow run https://github.com/feynman0825/nd0821-c2-build-model-workflow-starter.git \
+             -v 1.0.1 \
+             -P hydra_options="etl.sample='sample2.csv'"
+```
 
 ## License
 
