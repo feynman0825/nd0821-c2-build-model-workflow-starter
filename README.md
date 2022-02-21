@@ -566,7 +566,8 @@ you have trained your new model on the new data.
 
 ### Submission Details
 
-Github link: https://github.com/feynman0825/nd0821-c2-build-model-workflow-starter/releases
+Github link: https://github.com/feynman0825/nd0821-c2-build-model-workflow-starter
+
 W&B link: https://wandb.ai/feynman0825/nyc_airbnb
 
 
